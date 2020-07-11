@@ -143,6 +143,7 @@ header .logo{
     font-size: 13px;
     font-weight: normal;
     line-height: 0.7cm;
+    color: #333333;
 }
 .cross{
     max-width: 20px;
