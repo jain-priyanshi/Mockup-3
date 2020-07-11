@@ -1,0 +1,278 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    font-weight: bold;
+}
+header .logo{
+    font-family: 'Prompt';
+    font-weight: bold;
+    position: relative;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: initial;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    list-style: none;
+}
+.nav li{
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.one{
+    background: #000;
+    color: #fff;
+    border-radius: 100%;
+    padding: 5px 12px 5px;
+}
+.login{
+    background: #000;
+    color: #fff;
+    border-radius: 71px;
+    width:100px;
+    height: 40px;
+}
+.signup{
+    font-family: 'inter';
+    letter-spacing: 0.4px;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 2;
+}
+.content{
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    box-sizing: border-box;
+    min-width: 1050px;
+    max-height: 400px;
+    position: relative;
+    top:-70px;
+    bottom:10px;
+    left: -45px;
+    font-size: 10px;
+    padding: 40px;
+    margin: 50px 50px 200px 50px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    background-color: #5628D2;
+    border-radius: 33px;
+}
+.start{
+    font-family: 'inter';
+    font-size: 20px;
+    position: relative;
+    top: -185px;
+    left: 40px;
+    font-weight: bold;
+}
+.start a{
+    color: white;
+}
+.prop{
+    font-size: 31px;
+    font-size: 'prompt';
+    color: #fff;
+    position: relative;
+    left: 40px;
+    top: 35px;
+}
+.home{
+    font-size: 20px;
+    font-family: 'inter';
+    color: #fff;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    opacity: 0.8;
+    line-height: 1cm;
+}
+.img{
+    max-width: 500px;
+    max-height: 300px;
+    position: relative;
+    left: 355px;
+    top: -106px;
+}
+.flex{
+    position: relative;
+    left: -1145px;
+    top: 250px;
+    white-space: nowrap;
+    display: flex;
+}
+.menu{
+    font-family: 'inter';
+    list-style: none;
+    line-height: 1cm;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nest{
+    font-family: 'inter';
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 0.7cm;
+}
+.cross{
+    max-width: 20px;
+    max-height: 20px;
+    position: relative;
+    left: 110px;
+}
+.check{
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    left: 64px;
+}
+.house{
+    position: relative;
+    top: -5px;
+}
+a{
+    text-decoration: none;
+}
+.one a{
+    color: white;
+}
+.add{
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    left: 65px;
+}
+.add1{
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    left: 60px;
+}
+.add2{
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    left: 88px;
+}
+.add3{
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    left: 72px;
+}
+input{
+    position: relative;
+    left: -1020px;
+    top: 130px;
+    min-width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    background: rgba(86, 40, 210, 0.1);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.11em;
+}
+.sort{
+    position: relative;
+    left: -940px;
+    top: 130px;
+    min-width: 183px;
+    border-radius: 71px;
+    border: none;
+    height: 40px;
+    color: white;
+    background: #000;
+    font-size: 15px;
+    font-family: 'inter';
+}
+.new{
+    font-weight: bold;
+}
+.by{
+    font-weight: normal;
+}
+.wrap{
+    position: relative;
+    left: -1750px;
+    top: 550px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 20px;
+    padding: 40px;
+}
+.card{
+    width: 220px;
+    margin-right: 50px;
+    height: 210px;
+    background: white;
+    border-radius: 14px;
+}
+.pic{
+    max-width: 220px;
+    height: 130px;
+    border-radius: 18px;
+}
+.conimg{
+    max-width: 220px;
+}
+.para{
+    font-size: 10px;
+    color: #777777;
+}
+.more{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    position: relative;
+    top: -13px;
+}
+.save{
+    max-width: 20px;
+    max-height: 20px;
+    position: relative;
+    left: 120px;
+    top:-50px
+}
+.signup a{
+    color:#000
+}
+.login a{
+    color:#fff;
+}
+.sort a{
+    color: #fff;
+}
